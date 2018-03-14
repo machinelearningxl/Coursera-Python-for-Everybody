@@ -7,7 +7,6 @@
 # @Last modified time: 2017-11-07T19:38:22+00:00
 
 
-
 #Write a program to prompt the user for hours and
 #rate per hour to compute gross pay.
 
