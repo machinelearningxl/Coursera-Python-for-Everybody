@@ -5,7 +5,6 @@
 # @Filename: Assignment 3.3.py
 # @Last modified by:   Antero Maripuu
 # @Last modified time: 2017-11-08T14:13:13+00:00
-
 #3.3 Write a program to prompt the user for a score using raw_input. Print out
 #a letter grade based on the following table:
 
