@@ -7,6 +7,5 @@
 # @Last modified time: 2017-11-07T13:39:39+00:00
 
 
-
 #First Program in Python
 print ("Machine Learning is the future! ;)")
