@@ -3,4 +3,4 @@
 
 
 inp=input("Please enter your name : ") #Phyton 3 function input(), Python 2.7 raw_input()
-print ("Your name is: ", inp)
+print ("Your name is:  ", inp)
