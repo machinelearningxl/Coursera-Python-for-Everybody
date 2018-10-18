@@ -1,1 +1,1 @@
-print("Tedst")
+print("Tedest")
