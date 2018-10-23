@@ -10,8 +10,8 @@
 #Write a program to prompt the user for hours and
 #rate per hour to compute gross pay.
 
-inp=float(input("Please enter your hours ")) #Phyton 3 function input(), Python 2.7 raw_input()
-inp2=float(input("Please enter your rate (e.g £20.15) "))
+inp=float(input("Please enter your hours: ")) #Phyton 3 function input(), Python 2.7 raw_input()
+inp2=float(input("Please enter your rate (e.g £20.15): "))
 
 def fname(x,y):
   print(x*y)
