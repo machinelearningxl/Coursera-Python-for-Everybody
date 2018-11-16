@@ -1,10 +1,12 @@
-# @Author: Antero Maripuu <machinelearningxl>
-# @Date:   2017-10-25T22:08:26+01:00
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   2018-10-19 10:41:51
 # @Email:  antero.maripuu@gmail.com
 # @Project: Coursera
 # @Filename: Assignment 2.3.py
-# @Last modified by:   Antero Maripuu
-# @Last modified time: 2017-11-07T19:38:22+00:00
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 2018-11-16 14:17:37
+# @License: MIT
+
 
 
 #Write a program to prompt the user for hours and
