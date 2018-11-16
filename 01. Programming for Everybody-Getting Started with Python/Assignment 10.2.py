@@ -1,10 +1,12 @@
-# @Author: Antero Maripuu
-# @Date:   2017-11-07T15:07:40+00:00
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   2018-10-19 10:41:51
 # @Email:  antero.maripuu@gmail.com
 # @Project: Coursera
 # @Filename: Assignment 10.2.py
-# @Last modified by:   Antero Maripuu
-# @Last modified time: 2017-11-07T15:08:02+00:00
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 2018-11-16 15:53:49
+
+
 
 #10.2 Write a program to read through the mbox-short.txt and figure out the
 #distribution by hour of the day for each of the messages. You can pull the

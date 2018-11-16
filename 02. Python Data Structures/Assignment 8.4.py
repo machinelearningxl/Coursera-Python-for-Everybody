@@ -1,8 +1,13 @@
-#-*- coding: utf-8 -*-
-#@Filename : Assignment 8.4
-#@Date : 2018-03-14-22-07
-#@Poject: Coursera-Python-for-Everybody
-#@AUTHOR : Antero Maripuu
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   2018-10-19 10:41:51
+# @Email:  antero.maripuu@gmail.com
+# @Project: Coursera
+# @Filename: Assignment 8.4.py
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 2018-11-16 14:15:32
+# @License: MIT
+
+
 
 # Open the file romeo.txt and read it line by line. For each line, split the
 #line into a list of words using the split() method. The program should build a

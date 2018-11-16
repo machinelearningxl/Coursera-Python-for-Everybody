@@ -1,10 +1,11 @@
-# @Author: Antero Maripuu <machinelearningxl>
-# @Date:   2017-11-07T13:45:29+00:00
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   2018-10-19 10:41:51
 # @Email:  antero.maripuu@gmail.com
 # @Project: Coursera
 # @Filename: Assignment 3.1.py
-# @Last modified by:   Antero Maripuu
-# @Last modified time: 2017-11-07T20:50:31+00:00
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 2018-11-16 15:24:00
+
 
 
 #3.1 Write a program to prompt the user for hours and rate per hour using

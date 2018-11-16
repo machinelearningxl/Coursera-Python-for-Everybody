@@ -4,8 +4,7 @@
 # @Project: Coursera
 # @Filename: Assignment 2.3.py
 # @Last modified by:   Antero Maripuu Github:<machinelearningxl>
-# @Last modified time: 2018-11-16 14:17:37
-# @License: MIT
+# @Last modified time: 2018-11-16 15:23:38
 
 
 

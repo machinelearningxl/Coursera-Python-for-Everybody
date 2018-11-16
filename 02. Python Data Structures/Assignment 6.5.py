@@ -1,8 +1,12 @@
-#-*- coding: utf-8 -*-
-#@Filename : Assignment 6.5
-#@Date : 2018-03-14-21-57
-#@Poject: Coursera-Python-for-Everybody
-#@AUTHOR : Antero Maripuu
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   19-10-2018
+# @Email:  antero.maripuu@gmail.com
+# @Project: Coursera
+# @Filename: Assignment 6.5.py
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 16-11-2018
+# @License: MIT
+
 
 
 # Write code using find() and string slicing (see section 6.10) to extract the

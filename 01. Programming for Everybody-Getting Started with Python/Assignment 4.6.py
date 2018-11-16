@@ -1,10 +1,12 @@
-# @Author: Antero Maripuu <machinelearningxl>
-# @Date:   2017-11-07T14:05:12+00:00
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   2018-10-19 10:41:51
 # @Email:  antero.maripuu@gmail.com
 # @Project: Coursera
 # @Filename: Assignment 4.6.py
-# @Last modified by:   machinelearningxl
-# @Last modified time: 2017-11-07T14:06:00+00:00
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 2018-11-16 15:24:51
+
+
 
 #4.6 Write a program to prompt the user for hours and rate per hour using
 #raw_input to compute gross pay. Award time-and-a-half for the hourly rate for
