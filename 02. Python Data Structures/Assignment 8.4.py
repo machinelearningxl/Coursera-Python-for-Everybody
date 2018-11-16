@@ -4,8 +4,7 @@
 # @Project: Coursera
 # @Filename: Assignment 8.4.py
 # @Last modified by:   Antero Maripuu Github:<machinelearningxl>
-# @Last modified time: 2018-11-16 14:15:32
-# @License: MIT
+# @Last modified time: 2018-11-16 15:59:34
 
 
 

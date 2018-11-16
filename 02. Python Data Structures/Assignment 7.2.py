@@ -1,8 +1,10 @@
-#-*- coding: utf-8 -*-
-#@Filename : Assignment 7.2
-#@Date : 2018-03-14-22-05
-#@Poject: Coursera-Python-for-Everybody
-#@AUTHOR : Antero Maripuu
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   2018-10-19 10:41:51
+# @Email:  antero.maripuu@gmail.com
+# @Project: Coursera
+# @Filename: Assignment 7.2.py
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 2018-11-16 15:58:34
 
 
 # Write a program that prompts for a file name, then opens that file and reads

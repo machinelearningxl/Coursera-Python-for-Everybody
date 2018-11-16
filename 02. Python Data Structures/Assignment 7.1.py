@@ -1,14 +1,10 @@
 # @Author: Antero Maripuu Github:<machinelearningxl>
-# @Date:   2018-10-19T10:41:51+01:00
+# @Date:   2018-10-19 10:41:51
 # @Email:  antero.maripuu@gmail.com
 # @Project: Coursera
 # @Filename: Assignment 7.1.py
 # @Last modified by:   Antero Maripuu Github:<machinelearningxl>
-# @Last modified time: 2018-11-16T14:13:31+00:00
-# @License: MIT
-
-
-
+# @Last modified time: 2018-11-16 15:57:54
 
 
 # Write a program that prompts for a file name, then opens that file

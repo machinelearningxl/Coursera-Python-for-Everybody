@@ -1,13 +1,18 @@
-#-*- coding: utf-8 -*-
-#@Filename : Assignment 8.5
-#@Date : 2018-03-14-22-08
-#@Poject: Coursera-Python-for-Everybody
-#@AUTHOR : Antero Maripuu
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   2018-10-19 10:41:51
+# @Email:  antero.maripuu@gmail.com
+# @Project: Coursera
+# @Filename: Assignment 8.5.py
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 2018-11-16 16:00:24
 
-# Open the file mbox-short.txt and read it line by line. When you find a line
+
+
+#8.5 Open the file mbox-short.txt and read it line by line. When you find a line
 #that starts with 'From ' like the following line:
 #From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
-# You will parse the From line using split() and print out the second word in
-#the line (i.e. the entire address of the person who sent the message).
-#Then print out a count at the end. Hint: make sure not to include the lines
-#that start with 'From:'.
+#You will parse the From line using split() and print out the second word in the
+#line (i.e. the entire address of the person who sent the message). Then print
+#out a count at the end.
+#Hint: make sure not to include the lines that start with 'From:'.
+#You can download the sample data at http://www.pythonlearn.com/code/mbox-short.txt

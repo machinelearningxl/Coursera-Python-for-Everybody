@@ -1,10 +1,12 @@
-# @Author: Antero Maripuu
-# @Date:   2017-11-07T15:06:00+00:00
+# @Author: Antero Maripuu Github:<machinelearningxl>
+# @Date:   2018-10-19 10:41:51
 # @Email:  antero.maripuu@gmail.com
 # @Project: Coursera
-# @Filename: Assignmenet 9.4.py
-# @Last modified by:   Antero Maripuu
-# @Last modified time: 2017-11-07T15:06:52+00:00
+# @Filename: Assignment 9.4.py
+# @Last modified by:   Antero Maripuu Github:<machinelearningxl>
+# @Last modified time: 2018-11-16 15:53:20
+
+
 
 #9.4 Write a program to read through the mbox-short.txt and figure out who has
 #the most commits. The program looks for 'From ' lines and takes the second word
