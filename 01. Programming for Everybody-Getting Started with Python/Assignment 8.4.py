@@ -18,3 +18,38 @@ You can download the sample data at http://www.pythonlearn.com/code/romeo.txt
 Desired Output:
 ['Arise', 'But', 'It', 'Juliet', 'Who', 'already', 'and', 'breaks', 'east', 'envious', 'fair', 'grief', 'is', 'kill', 'light', 'moon', 'pale', 'sick', 'soft', 'sun', 'the', 'through', 'what', 'window', 'with', 'yonder']
 """
+
+
+def list_of_words(values):
+    lists = []
+    for d in words_file:
+        for c in d.split():
+            lists.append(c)
+    return lists
+
+
+def sort_and_uniqe(values):
+    lista = []
+    for x in values:
+        if x not in lista:
+            lista.append(x)
+            lista.sort()
+    return lista
+
+
+words_file = input("Type a file name for processing: ")
+if words_file == "":
+    words_file = open("romeo.txt")
+
+x = list_of_words(words_file)
+print(sort_and_uniqe(x))
+
+
+
+
+
+
+
+
+
+
