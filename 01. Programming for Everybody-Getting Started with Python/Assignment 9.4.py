@@ -18,4 +18,7 @@ committer.
 
 You can download the sample data at http://www.pythonlearn.com/code/mbox-short.txt
 
+Desired Output:
+cwen@iupui.edu 5
+
 """
