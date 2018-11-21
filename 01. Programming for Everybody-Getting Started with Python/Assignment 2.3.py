@@ -16,7 +16,7 @@ inp = float(input("Please enter your hours: "))  # Python 3 function input(), Py
 inp2 = float(input("Please enter your rate (e.g £20.15): "))
 
 
-def fname(x,y):
+def fname(x, y):
     print(x*y)
 
 
