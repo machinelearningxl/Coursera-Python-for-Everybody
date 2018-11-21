@@ -17,3 +17,16 @@
 #Do not worry about error checking the user input unless you want to - you can
 assume the user types numbers properly.
 """
+
+hours = float(input("Worked Hours: "))  # Python 3 function input(), Python 2.7 raw_input()
+rate = float(input("Pay rate: "))
+
+
+def computepay(hours, rate):
+    if hours <=40:
+        return hours*rate
+    else:
+        return rate * 40 + (rate * 1.5 * (hours - 40))
+
+
+print(computepay(45, 10.5))
