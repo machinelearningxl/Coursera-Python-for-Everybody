@@ -6,7 +6,6 @@
 # @Last modified by:   Antero Maripuu Github:<machinelearningxl>
 
 
-
 """
 2.5 Write a program which prompts the user for a Celsius temperature,
 convert the temperature to Fahrenheit, and print out the converted

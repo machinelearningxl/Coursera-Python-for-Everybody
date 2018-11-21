@@ -7,24 +7,28 @@
 # @Last modified time: 2018-11-20 13:59:10
 
 
+"""
+3.3 Write a program to prompt the user for a score using raw_input. Print out
+a letter grade based on the following table:
 
-#3.3 Write a program to prompt the user for a score using raw_input. Print out
-#a letter grade based on the following table:
 
-# Score Grade
-# >= 0.9 A
-# >= 0.8 B
-# >= 0.7 C
-# >= 0.6 D
-# < 0.6 F
-#If the user enters a value out of range, print a suitable error message and
-#exit. For the test, enter a score of 0.85.
+ Score Grade
+ >= 0.9 A
+ >= 0.8 B
+ >= 0.7 C
+ >= 0.6 D
+ < 0.6 F
+If the user enters a value out of range, print a suitable error message and
+exit. For the test, enter a score of 0.85.
+"""
 
 try:
-    inp=float(input("Please enter a score: "))
+    inp = float(input("Please enter a score: "))
 except:
     print("Please enter a double number eg. 0.9")
     quit()
+
+
 def rate(x):
  if x>=0.9 and x<=1.0:
   return "A"
@@ -38,5 +42,6 @@ def rate(x):
   return "F"
  else:
   return "Please enter a score between 0.0 and 1.0"
+
 
 print(rate(inp))
