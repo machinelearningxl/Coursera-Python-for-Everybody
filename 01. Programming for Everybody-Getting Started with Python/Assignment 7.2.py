@@ -18,4 +18,25 @@ when you are testing below enter mbox-short.txt as the file name.
 Desired Output:
 Average spam confidence: 0.750718518519
 """
+words_file = input("Type a file name for processing: ")
+if words_file == "":
+    words_file = open("mbox-short.txt")
 
+
+def find_extract_values(values):
+    count = 0
+    sum = 0
+    lists = []
+    for lin in values:
+        lin = lin.rstrip()
+        if lin.startswith("X-DSPAM-Confiden"):
+            count = count+1
+            lists.append(float(lin[19:]))
+    for num in lists:
+        sum += num
+
+    #  print("Total number of lines ", count)
+    print("Average spam confidence: ", sum/count)
+
+
+find_extract_values(words_file)
