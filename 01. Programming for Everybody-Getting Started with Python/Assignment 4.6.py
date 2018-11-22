@@ -23,7 +23,7 @@ rate = float(input("Pay rate: "))
 
 
 def computepay(hours, rate):
-    if hours <=40:
+    if hours <= 40:
         return hours*rate
     else:
         return rate * 40 + (rate * 1.5 * (hours - 40))
