@@ -34,3 +34,24 @@ Desired Output:
 19 1
 
 """
+counts = dict()
+
+words_file = input("Type a file name for processing: ")
+if words_file == "":
+    words_file = open("mbox-short.txt")
+
+for words in words_file:
+    if words.startswith("From "):
+            words = words.split()[5]
+            split = words.split(":")[0]
+            counts[split] = counts.get(split, 0) + 1
+#  print(counts)
+
+lst = list()
+for key, val in counts.items():
+    lst.append((key, val))
+lst.sort(reverse=False)
+for val, key in lst[:]:
+    print(val, key)
+
+
