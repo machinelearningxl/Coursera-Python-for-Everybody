@@ -10,7 +10,7 @@ http://www.pythonlearn.com/code/intro-short.txt
 """
 
 import socket
-import  sys
+import sys
 
 host = "data.pr4e.org"
 try:
@@ -22,7 +22,7 @@ except socket.error:
 try:
     remote_ip = socket.gethostbyname(host)
 except socket.gaierror:
-    print('Hostname could not be resolved. Exiting')
+    print("Hostname could not be resolved. Exiting")
     sys.exit()
 
 mysock.connect(("data.pr4e.org", 80))
@@ -31,10 +31,7 @@ mysock.send(cmd)
 
 while True:
     data = mysock.recv(512)
-    if len(data) < 1:   #     If no data, break
-        print("No Data ERROR")
+    if len(data) < 1:   # If no data, break
         break
-    else:
-        print("RECIVED:")
-        print(data.decode())
+    print(data.decode())
 mysock.close()
