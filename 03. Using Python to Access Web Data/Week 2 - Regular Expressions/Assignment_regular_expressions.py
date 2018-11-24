@@ -11,7 +11,7 @@ You will extractall the numbers in the file and compute the sum of the numbers.
 
 import re
 
-words_file = input("Type a file name for processing: ")
+words_file = input("Type a file name for processing:  ")
 if words_file == "":
     words_file = open("regex text data.txt")
 
