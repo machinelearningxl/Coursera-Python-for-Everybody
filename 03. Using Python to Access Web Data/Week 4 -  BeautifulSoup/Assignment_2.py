@@ -14,6 +14,7 @@ SAMPLE:
 Find the link at position 3 (the first name is 1). Follow that link. Repeat this
 process 4 times. The answer is the last name that you retrieve.
 The result should be: Anayah
+
 PROBLEM:
 Find the link at position 18 (the first name is 1). Follow that link. Repeat this
 process 7 times. The answer is the last name that you retrieve.
