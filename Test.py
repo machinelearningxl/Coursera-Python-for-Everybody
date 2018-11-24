@@ -1,14 +1,17 @@
+import re
 
+#Opening the file in which we'll need to find the numbers
+sample_file = open('regex text data.txt')
 
-shopList = []
-maxLengthList = 6
-while True:
+#Obtaining strings representing the numbers in that file
+text = sample_file.read() #With read, we read the entire text and not line by line
+number_regex = '[0-9]+'
+numbers = re.findall(number_regex, text) #Match any combination of one or more digits
 
-    item = input("Enter your Item to the List: ")
-    if item == "done":
-        break
-    shopList.append(item)
-    #print (shopList)
-print ("That's your Shopping List")
-print (shopList)
+#Casting them to integers and getting the total sum
+total = sum(int(num) for num in numbers)
 
+print(total)
+
+#Closing the file to avoid memory problems
+sample_file.close()

@@ -24,7 +24,7 @@ for x in words_file:
         y = int(y)
         su += y
 
-print("Sum of the numbers: ",su)
+print("Sum of the numbers: ", su)
 
 
 
