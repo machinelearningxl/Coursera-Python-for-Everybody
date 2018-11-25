@@ -10,6 +10,8 @@ This assignment consists of using urllib to read the HTML from the data files
 indicated, and parse the data, extract the numbers and compute the sum of the
 numbers in the file
 
+view-source: http://python-data.dr-chuck.net/comments_46.html
+
 DATA FORMAT:
  The file is a table of names and comment counts. You can ignore most of the data
  in the file except for lines like the following:
@@ -37,4 +39,25 @@ You need to adjust this code to look for span tags and pull out the text content
 span tag, convert them to integers and add them up to complete the assignment.
 """
 
+import urllib.request, urllib.response, urllib.request
+from bs4 import *  # BeautifulSoup
 
+sum = 0
+url = input('Enter URL - ')
+if url == "":
+    url = "http://python-data.dr-chuck.net/comments_46.html"
+
+    html = urllib.request.urlopen(url).read()
+    soup = BeautifulSoup(html, "html.parser")
+
+# Retrieve all of the anchor tags
+tags = soup('span')
+for tag in tags:
+    sum += float(tag.contents[0])
+
+"""
+First contents[0] gives the HTML tag, the second one, gives  the head tag. 
+The third one leads to the title tag, and the fourth one gives you the actual content.
+"""
+
+print("The sum of the numbers in the file", sum)
