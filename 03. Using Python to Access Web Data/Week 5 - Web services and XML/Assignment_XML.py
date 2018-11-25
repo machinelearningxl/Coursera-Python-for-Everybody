@@ -42,4 +42,22 @@ commentinfo -> comments -> comment -> count
 
 """
 
+import urllib.request, urllib.request
+import xml.etree.ElementTree as ET
+
+url = input('Enter XML URL - ')
+if url == "":
+    url = "http://python-data.dr-chuck.net/comments_277465.xml"
+
+open_url = urllib.request.urlopen(url).read()
+
+stuff = ET.fromstring(open_url)
+lst = stuff.findall("comments/comment")
+
+count = 0
+
+for item in lst:
+    count += int(item.find("count").text)
+print("Total count: ", count)
+
 
