@@ -38,6 +38,20 @@ The closest sample code that shows how to parse JSON and extract a list is
 json2.py. You might also want to look at geoxml.py to see how to prompt for a URL
 and retrieve data from a URL.
 """
+import urllib.request, urllib.request
+import json
 
+url = input('Enter JSON URL - ')
+if url == "":
+    url = "http://python-data.dr-chuck.net/comments_42.json"
+
+open_url = urllib.request.urlopen(url).read()
+
+data = json.loads(open_url)
+
+count = 0
+for item in data["comments"]:
+    count += int(item["count"])
+print("Total count: ", count)
 
 
