@@ -53,7 +53,7 @@ if url == "":
 # Retrieve all of the anchor tags
 tags = soup('span')
 for tag in tags:
-    sum += float(tag.contents[0])
+    sum += int(tag.contents[0])
 
 """
 First contents[0] gives the HTML tag, the second one, gives  the head tag. 
