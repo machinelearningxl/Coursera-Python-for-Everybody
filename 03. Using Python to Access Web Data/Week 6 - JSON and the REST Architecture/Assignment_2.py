@@ -36,5 +36,37 @@ not the normal Google API. Your program should work with the Google API - but th
 place_id may not match for this assignment.
 """
 
+import urllib.request
+import urllib.parse
+import json
+
+serviceurl = input('Enter Service URL - ')
+if serviceurl == "":
+    serviceurl = 'http://python-data.dr-chuck.net/geojson?'
+
+while True:
+    address = input("Enter location: ")
+    if len(address) < 1:
+        break
+
+    url = serviceurl + urllib.parse.urlencode({'sensor': 'false', 'address': address})
+    print('Retrieving', url)
+    data = urllib.request.urlopen(url).read().decode('utf-8')
+    print('Retrieved', len(data), 'characters')
+
+    try:
+        js = json.loads(data)
+    except:
+        js = None
+    if 'status' not in js or js['status'] != 'OK':
+        print('==== Failure To Retrieve ====')
+        print(data)
+        continue
+    lat = js["results"][0]["geometry"]["location"]["lat"]
+    lng = js["results"][0]["geometry"]["location"]["lng"]
+    print('lat', lat, 'lng', lng)
+    place_id = js["results"][0]["place_id"]
+    print("Place id", place_id)
+
 
 
