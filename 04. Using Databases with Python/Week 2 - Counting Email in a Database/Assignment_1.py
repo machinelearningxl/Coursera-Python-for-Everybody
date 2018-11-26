@@ -11,7 +11,7 @@ create db, create table (org, count) and count number emails per organization
 
 import sqlite3
 
-conn = sqlite3.connect("orgdb.sqlite")
+conn = sqlite3.connect("orgdb1.sqlite")
 cur = conn.cursor()
 
 cur.execute('''DROP TABLE IF EXISTS Counts''')
